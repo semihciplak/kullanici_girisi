@@ -1,4 +1,4 @@
-sys_kullanıcıadı="semih"
+sys_kullanıcıadı="semih"  #kullanıcı adı ve şifteyi istediğiniz gibi değiştirebilirsiniz
 sys_parola="12345"
 
 giriş_hakkı=3
