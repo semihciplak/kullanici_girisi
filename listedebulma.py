@@ -3,6 +3,6 @@
 liste=["a","b","c","d"]
 hedef_harf= "x"
 
-if hedef_harf in liste:
+if hedef_harf in liste:   #bu in özelliğini daha önce görmemiştim. "in" listenin içindekileri arama gibi düşünülebilir. 
     print("Baba burada")
 else: print("Burada kimse yok")
