@@ -16,6 +16,19 @@ yüzde=0
 while(yüzde!=100):        
         d1=int(input("Birinci daire faturanın yüzde kaçını ödüyor:"))
         d2=int(input("İkinci daire faturanın yüzde kaçını ödüyor:"))
+        
+        
+  ekle = input("Hesaplanması için yeni daire eklemek ister misin? E/H:")
+     if ekle=="E":
+        d3 = int(input("Yeni daire faturanın yüzde kaçını ödüyor:"))
+     elif ekle =="H":
+        ödeme1=toplam*d1/100
+        ödeme2=toplam*d2/100
+        
+        print("Birinci dairenin doğalgaz faturası",ödeme1)
+        print("İkinci dairenin doğalgaz faturası",ödeme2)
+        
+        
         d3=int(input("üçüncü daire faturanın yüzde kaçını ödüyor:"))
         d4=int(input("Dördüncü daira faturanın yüzde kaçını ödüyor:"))
         d5=int(input("Beşinci daire faturanın yüzde kaçını ödüyor:"))
